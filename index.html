@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Maps</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+
+</head>
+<body>
+        <h2 class="chart-title">Nationality Targeted By Terrorist in 1970</h2>
+        <div class="big-container">
+            <div class="row" style="background-color:rgb(199, 199, 199);">
+              <div class="col-7">
+                    <div id="chart"></div>
+                    <!-- <div id="buttons">
+                            <button type="button" class="panning up"><i class="fa fa-arrow-up"></i></button>
+                            <button type="button" class="panning down"><i class="fa fa-arrow-down"></i></button>
+                            <button type="button" class="panning left"><i class="fa fa-arrow-left"></i></button>
+                            <button type="button" class="panning right"><i class="fa fa-arrow-right"></i></button>
+                            <button type="button" class="zooming in"><i class="fa fa-plus"></i></button>
+                            <button type="button" class="zooming out"><i class="fa fa-minus"></i></button>
+                        </div> -->
+              </div>
+              <div class="col-5">
+                  <div style="margin-top:25px;"></div>
+                <!-- !miranda code -->
+                <div class="container year-select-div">
+                        <div id="word-cloud"></div>
+                </div>
+                <!-- !miranda code -->
+              </div>
+              <div class="container">
+                <div id="user-input-div">
+                    <strong>Animate All Years</strong>
+                    <button id="play-button" type="button"><i class="fa fa-play "></i></button>
+                    <button id="pause-button" type="button"><i class="fa fa-pause "></i></button>
+                    <hr>
+                    <strong>Select A Year</strong>
+                </div>
+              </div>
+        </div>
+
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="app.js"></script>
+
+
+<!-- !miranda code -->
+    <script type="text/javascript" src="mirandaJs/d3.layout.cloud.js"></script>
+    <script type="text/javascript" src="mirandaJs/medley2.js"></script>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> 
+<!-- !miranda code -->
+
+</body>
+</html>

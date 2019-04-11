@@ -1,0 +1,116 @@
+#chart{
+    width: 800px;
+    height:550px;
+    background-color: #3ba8e3;
+    margin: 25px auto;
+}
+#buttons{
+    width: 800px;
+    margin: 25px auto;
+    text-align: center;
+}
+button{
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #50B98C;
+}
+.chart-title{
+    text-align: center;
+    margin: 15px 10px -25px 0px;
+    text-decoration: underline;
+}
+#user-input-div{
+    /* background-color: rgb(255, 255, 255); */
+    width: 100%;
+    height: 174px;
+    overflow: auto;
+}
+div.years_buttons button {
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(240, 149, 64);
+    padding: 3px;
+    margin: 7px;
+    border-radius: 5%;
+    -webkit-transition: width 0.25s, height 0.25s; /* Safari */
+    transition: width 0.25s, height 0.25s;
+}
+div.years_buttons button:hover {
+    padding: 3px;
+    margin: 7px;
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+}
+#play-button{
+    background-color: rgb(212, 74, 74);
+    margin: 0 auto; width: 144px; height: 44px;
+    -webkit-transition: width 0.25s, height 0.25s; /* Safari */
+    transition: width 0.25s, height 0.25s;
+}
+#play-button:hover{
+    background-color: rgb(133, 189, 137);
+    margin: 0 auto; width: 155px; height: 55px;
+}
+#pause-button{
+    background-color: rgb(212, 74, 74);
+    margin: 0 auto; width: 144px; height: 44px;
+    -webkit-transition: width 0.25s, height 0.25s; /* Safari */
+    transition: width 0.25s, height 0.25s;
+}
+#pause-button:hover{
+    background-color: rgb(133, 189, 137);
+    margin: 0 auto; width: 155px; height: 55px;
+}
+
+/* when buttons are disabled */
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc !important;
+}
+
+div.years_buttons button:disable {
+  border: 1px solid #999999;
+  background-color: #cccccc !important;
+}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 125px;          
+    /* height: 14px;          */
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: rgb(202, 240, 243); 
+    border: 0px;        
+    pointer-events: none;     
+}
+
+.big-container {
+    margin:25px;
+}
+
+html{
+    background-color: rgb(199,199,199);
+}
+body{
+    background-color: rgb(199,199,199) !important;
+}
+
+/* change wordcloud background */
+#word-cloud svg{
+    height: 100%;
+    background-color: white;
+}
