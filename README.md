@@ -1,4 +1,4 @@
-# Data_Visual_Project2
+
 demo: https://visualproject2.netlify.com/
 video:https://vimeo.com/329944550
 # Nationality Targeted By Terrorist From 1970 to 2017 Visualization
