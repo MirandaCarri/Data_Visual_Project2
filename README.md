@@ -18,3 +18,9 @@ It appears that United States has not been targeted for terrorist attacks in the
 
 ![Screen Shot 2019-04-11 at 8 25 45 PM](https://user-images.githubusercontent.com/32583946/56006333-f44dc580-5c99-11e9-93fd-97d7eaeec16a.png)
 https://www.bbc.com/news/world-middle-east-30411519
+
+## Group Members Responsibility
+
+Kien Phan is responsible for the choropleth map that will show which nationality targeted by terrorist most. The most targeted ones are the colored in a darker red and the lower targeted nationality will be in lighter red or white if that nationality did not get target in the selected year.
+
+Miranda Carrillo is responsible for generating a word cloud that is responsible for showing which countries is targeted the most for the year the user selected. This will support the map visualization to show which country was targeted the most.
